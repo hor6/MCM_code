@@ -13,9 +13,9 @@ You also need to have a high-quality mortality data to approximate background mo
 
 The code provide two options of script: 
 
-(1)  the cure fraction is estimated from the available trial data a
+(1)  the cure fraction is estimated from the available trial data 
 
-(2) an external data source is used to estimate the cure fraction
+(2) an external data source is used to inform the cure fraction
 
 
 # References
