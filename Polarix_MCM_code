@@ -242,8 +242,6 @@ for (j in 1:N_c) {
 
 ## Calculate fits for each parametric model and cure fraction value
 for (i in 1:N_m) {
-  png(paste("GO39942/Cure_model/plot_models_", models[i], "_POLARIX.png", sep = ""),
-      width = 9, height = 6, units = "in", res = 500)
   
   fsr_fits_ <- flexsurvreg(Surv(as.numeric(TIME), CNSR) ~ 1,
                            data = PFS_polarix_data, dist = models[i])
