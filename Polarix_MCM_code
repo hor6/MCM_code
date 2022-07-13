@@ -1,7 +1,7 @@
 #This code was used in the Polarix trial which is the same used in the Brim3 example.
 #Weibull and log-logistic did not converge so they were excluded 
-# The code for Pola+R-CHP and R-CHOP were the same, the difference would be the selection of ARMCD.x=="ARM B" for R-CHOP. In the R-CHOP we included "gengamma"(gen gamma did not converge for Pola+R-CHP)
-# The code for OS is the same but since it was not possible to estimate  the long-term survival fraction using the OS data due to few events in the trial). The long-term remission fraction estimated in PFS were used to extrapolate the OS curves.
+# The code for Pola+R-CHP and R-CHOP are the same, the difference would be the selection of ARMCD.x=="ARM B" for R-CHOP. In the R-CHOP we included "gengamma"(gengamma did not converge for Pola+R-CHP)
+# The code for OS is alsothe same but since it was not possible to estimate the long-term survival fraction using the OS data due to few events in the trial, the long-term remission fractions estimated in PFS were used to extrapolate the OS curves.
 # All the background mortality data came from the Human Mortality Database 
 #The codes used in the Polarix trial similarly to  Brim3 has two parts: (1) Generate the long-term remission fraction using the trial data; (2) use the same long-term remission fraction to extrapolate to extrapolate the trial data and also compare the extrapolation curves with different long-term remission fractions 
 
